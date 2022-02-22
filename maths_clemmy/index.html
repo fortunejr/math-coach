@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Math coach</title>
+        
+        <link rel="icon" href="images/math-icon.png">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <a href="index.html"><img src="images/MATHS-03.png" width="92px" height="48px"></a>
+<div class="upload">
+ <img class="iconn" src="images/icons8-upload-to-cloud-50.png">
+ <p>Upload questions here</p>
+ <button class="upload-btn">Upload</button>
+</div>
+
+<div class="go-to-q">
+    <img class="iconn" src="images/icons8-test-70.png">
+    <p>Go to questions</p>
+    <button class="go-to-q-btn">Go to questions</button>
+</div>
+
+<!-- Upload questions -->
+<div class="dropdown-parent">
+    <div class="dropdown">
+        Select Category: <button class="link" id="category-button">Select Category</button><br>
+        <div class="dropdown-menu-category">
+            <p id="senior">Senior Category</p>
+            <p id="junior">Junior Category</p>
+        </div>
+    </div>
+    <div class="dropdown">
+        <div class="sel-quiz">Select Quiz Type: <button class="link" id="quiz-button">Select Quiz Type</button></div>
+        <div class="dropdown-menu-quiz">
+            <p id="speed">Speed 'o' Math</p>
+            <p id="inter">Interclass Quiz</p>
+            <p id="strength">Show Your Strength</p>
+        </div>
+    </div>
+    <div class="select-file">
+        <form>
+            Choose File: <input type="file" name="Select file" accept=".xlsx">
+        </form>
+    </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/code.js" charset="utf-8"></script>
+    </body>
+</html>

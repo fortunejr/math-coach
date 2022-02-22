@@ -1,0 +1,217 @@
+body {
+    background: linear-gradient(to right, #012e71, #9000c2);
+}
+
+.upload {
+    position: absolute;
+width: 400px;
+height: 400px;
+left: 180px;
+top: 160px;
+
+background: radial-gradient(100% 100% at 11.5% 0%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100%);
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+backdrop-filter: blur(12px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+text-align: center;
+}
+.go-to-q {
+    position: absolute;
+width: 400px;
+height: 400px;
+left: 700px;
+top: 160px;
+
+background: radial-gradient(100% 100% at 11.5% 0%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100%);
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+backdrop-filter: blur(12px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+text-align: center;
+}
+.algebra-p {
+    color: aliceblue;
+    text-align: center;
+}
+.card {
+    position: static;
+width: 202px;
+padding-bottom: 0;
+left: 0px;
+top: 0px;
+
+background: radial-gradient(100% 100% at 11.5% 0%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100%);
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+backdrop-filter: blur(12px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 15px 51px;
+}
+.first-row-card {
+    display:flex;
+    justify-content:center;
+    padding:0;
+    flex-wrap:wrap;
+
+}
+.iconn {
+
+    margin-top: 15%;
+}
+.upload p, .go-to-q p {
+    color: white;
+    font-size: 23px;
+
+}
+.first-row-card img {
+    border-radius: 10px 10px 0 0;
+}
+.card p {
+    font-size: medium;
+}
+/* Buttons */
+.upload-btn {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 40px;
+
+position: absolute;
+width: 160px;
+height: 56px;
+left: 120px;
+top: 272px;
+
+background: #52006E;
+border-radius: 10px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 40px;
+color: white;
+border: 0;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.go-to-q-btn {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 40px;
+
+position: absolute;
+width: 20%px;
+height: 56px;
+left: 74px;
+top: 272px;
+
+background: #52006E;
+border-radius: 10px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 40px;
+color: white;
+margin: auto;
+border: 0;
+font-family: Nunito;
+font-weight: 600;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.link {
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-menu-category {
+    display: none;
+    width: 50%;
+    margin-left: 20%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+    border-radius: .25rem;
+    background-color: #FFFFFF;
+    padding: 0 2%;
+    font-size: medium;
+}
+.dropdown-menu-category p {
+    color: black;
+}
+#senior, #junior {
+    cursor: pointer;
+}
+#inter, #strength, #speed {
+    cursor: pointer;
+}
+.dropdown-menu-quiz {
+    display: none;
+    width: 50%;
+    margin-left: 20%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+    border-radius: .25rem;
+    background-color: #FFFFFF;
+    padding: 1% 2%;
+    font-size: medium;
+    margin-top: 20px;
+
+}
+#category-button {
+    padding: 3% 17% 3% 3%;
+    margin-left: 2%;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+#quiz-button {
+
+    position: absolute;
+    padding: 3% 17% 3% 3%;
+    margin-left: 2%;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.dropdown-parent {
+    padding: 40px 80px;
+    
+    position: absolute;
+    width: 589px;
+    height: 392px;
+    left: 346px;
+    top: 164px;
+    
+    background: radial-gradient(100% 100% at 11.5% 0%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 10px;
+    display: none;
+}
+.sel-quiz {
+    margin-top: 25px;
+}
+.select-file form {
+    margin-top: 20%;
+}
